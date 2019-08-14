@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/*
+ * 存放公共变量，如颜色值，字体大小
+ * eg: $navColor
+ */
+/*
+ * 存放公共样式，如导航，按钮，底部，表单
+ * eg: .bk-header{ ... }
+ */
+/*
+ * 存放公共变量，如颜色值，字体大小
+ * eg: $navColor
+ */
+* {
+  box-sizing: border-box; }
+
+img {
+  border: 0; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, i, pre, form, fieldset, input, blockquote, th, td, p, span, button, textarea, b {
+  margin: 0;
+  padding: 0; }
+
+/*@font-face{
+    font-family: 'pingFang';
+    src:url('../');
+}*/
+body {
+  min-width: 1180px;
+  font-size: 14px;
+  font-family: 'pingFang-SC-Regular','微软雅黑',Arial;
+  /* font-family:'微软雅黑',;*/ }
+
+a {
+  text-decoration: none;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  transition: all .5s; }
+
+a:hover {
+  text-decoration: none; }
+
+ul,
+ol,
+li {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4f515e;
+  font-weight: normal; }
+
+p {
+  color: #7b7d8a; }
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+
+
+
+
+body {
+  width: 100%; }
+
+#header {
+  z-index: 999;
+  height: 5.20833rem;
+  width: 100%;
+  min-width: 100rem;
+  padding: 0 18.22917rem;
+  position: fixed;
+  background: #012257;
+  top: 0;
+  left: 0; 
+  }
+
+#header ul {
+  float: left;
+  height: 100%;
+  width: 27.60417rem; }
+  #header ul:nth-child(1) {
+    margin-left: 0.46875rem; }
+  #header ul:nth-child(2) {
+    margin-left: 0.15625rem; }
+
+#header ul li {
+  text-align: center;
+  float: left;
+  width: 8.85417rem;
+  height: 100%; }
+
+#header ul li a {
+  color: #fff;
+  font-size: 0.9375rem;
+  line-height: 5.20833rem; }
+
+#header #logo {
+  height: 100%;
+  float: left;
+  padding-top: 1.66667rem; }
+  #header #logo a {
+    display: inline-block; }
+  #header #logo img {
+    width: 6.77083rem; }
+#header_shade {
+  position: relative;
+  height: 100%; }
+
+#sj {
+  width: 1.5625rem;
+  height: 0.72917rem;
+  background: url(../../img/sanjiao.png) no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  position: absolute;
+  bottom: 0.52083rem;
+  left: 4.0625rem; }
+
+
+
+#footer {
+  height: 36.45833rem;
+  background: url(../../img/footer.png) no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; }
+  #footer #footer_shade {
+    text-align: center;
+    padding: 0 18.75rem;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); }
+    #footer #footer_shade #footer_top {
+      padding-top: 2.60417rem; }
+      #footer #footer_shade #footer_top h2 {
+        font-size: 2.5rem;
+        color: #fff; }
+      #footer #footer_shade #footer_top img {
+        margin-top: 1.04167rem;
+        width: 3.59375rem;
+        height: 2.96875rem;
+        margin-bottom: 2.08333rem; }
+      #footer #footer_shade #footer_top p {
+        font-size: 0.83333rem;
+        font-weight: bold;
+        color: #fff;
+        line-height: 1.5625rem; }
+    #footer #footer_shade #footer_middle {
+      margin-top: 4.6875rem; }
+      #footer #footer_shade #footer_middle ul li {
+        float: left;
+        text-align: left; }
+      #footer #footer_shade #footer_middle h3 {
+        color: #fff;
+        font-size: 1.25rem;
+        font-weight: #fff;
+        line-height: 2.5rem; }
+      #footer #footer_shade #footer_middle .footer_middle_l {
+        width: 16.66667rem; }
+        #footer #footer_shade #footer_middle .footer_middle_l li {
+          float: left;
+          margin: 0.46875rem 3.22917rem 0.46875rem 0; }
+        #footer #footer_shade #footer_middle .footer_middle_l a {
+          color: #fff;
+          font-size: 0.9375rem; }
+      #footer #footer_shade #footer_middle .footer_middle_c {
+        width: 16.66667rem;
+        margin-left: 8.33333rem; }
+        #footer #footer_shade #footer_middle .footer_middle_c p {
+          font-size: 0.9375rem;
+          color: #fff;
+          line-height: 2.08333rem; }
+      #footer #footer_shade #footer_middle .footer_middle_r {
+        width: 7.8125rem;
+        height: 7.8125rem;
+        background: url(../../img/erweima.png) no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        float: right;
+        margin-top: -0.78125rem; }
+    #footer #footer_shade #footer_bottom {
+      margin-top: 6.77083rem; }
+      #footer #footer_shade #footer_bottom p {
+        font-size: 0.9375rem;
+        color: #Fff; }

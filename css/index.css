@@ -1,0 +1,280 @@
+#banner {
+  width: 100%;
+  height: 41.66667rem;
+  background: #555;
+  position: relative; }
+  #banner ul {
+    width: 100%;
+    margin-top: 10.10417rem; }
+    #banner ul li {
+      width: 100%;
+      text-align: center; }
+    #banner ul .banner_word_1 em {
+      font-weight: 900;
+      font-size: 3.125rem;
+      color: #fff; }
+    #banner ul .banner_word_2 {
+      margin-top: 1.97917rem; }
+      #banner ul .banner_word_2 img {
+        width: 14.89583rem;
+        height: 0.88542rem; }
+    #banner ul .banner_word_3 {
+      margin-top: 1.14583rem; }
+      #banner ul .banner_word_3 img {
+        width: 45.78125rem;
+        height: 1.82292rem; }
+    #banner ul .banner_word_4 {
+      margin-top: 1.14583rem; }
+      #banner ul .banner_word_4 p {
+        font-size: 1.5625rem;
+        color: #fefefe; }
+  #banner #banner_img {
+    z-index: 100;
+    height: 100%;
+    width: 100%; }
+    #banner #banner_img #banner1 {
+      background: url(../img/banner/banner1.png) no-repeat;
+      background-size: cover; }
+    #banner #banner_img #banner2 {
+      background: url(../img/banner/banner2.png) no-repeat;
+      background-size: cover; }
+    #banner #banner_img #banner3 {
+      background: url(../img/banner/banner3.png) no-repeat;
+      background-size: cover; }
+  #banner .swiper-pagination {
+    z-index: 300;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center; }
+    #banner .swiper-pagination .swiper-pagination-bullet {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 8px;
+      background: #555;
+      margin: 0 5px;
+      opacity: 0.8;
+      border: 1px solid #fff;
+      cursor: pointer; }
+    #banner .swiper-pagination .swiper-pagination-bullet-active {
+      background: #fff; }
+  #banner .swiper-button-prev, #banner .swiper-container-rtl .swiper-button-next {
+    background-image: url(../img/banner/right_white.png);
+    left: 19.79167rem;
+    right: auto; }
+  #banner .swiper-button-next, #banner .swiper-container-rtl .swiper-button-next {
+    background-image: url(../img/banner/left_white.png);
+    right: 19.79167rem;
+    left: auto; }
+  #banner .swiper-button-next, #banner .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    width: 14px;
+    height: 22px;
+    margin-top: -22px;
+    z-index: 300;
+    cursor: pointer;
+    -moz-background-size: 14px 22px;
+    -webkit-background-size: 14px 22px;
+    background-size: 14px 22px;
+    background-position: center;
+    background-repeat: no-repeat; }
+
+#main {
+  height: 125.72917rem;
+  padding: 0 18.75rem;
+  background: #fff; }
+  #main #main_top {
+    height: 18.22917rem;
+    padding-top: 4.42708rem;
+    margin-bottom: 5.20833rem; }
+    #main #main_top ul {
+      height: 100%; }
+      #main #main_top ul li {
+        text-align: center;
+        height: 100%;
+        width: 9.89583rem;
+        float: left;
+        margin: 0 1.19792rem; }
+        #main #main_top ul li img {
+          margin-top: -0.78125rem;
+          width: 8.85417rem;
+          height: 8.85417rem; }
+        #main #main_top ul li h3 {
+          font-size: 0.9375rem;
+          color: #282828;
+          font-weight: bold;
+          margin-bottom: 1.66667rem; }
+        #main #main_top ul li p {
+          font-size: 0.72917rem;
+          color: #8c8c8c;
+          line-height: 1.45833rem; }
+        #main #main_top ul li:nth-child(5) {
+          margin-right: 0; }
+  #main #main_middle #main_middle_title {
+    width: 100%;
+    text-align: center; }
+    #main #main_middle #main_middle_title h2 {
+      font-size: 1.5625rem;
+      font-weight: 600;
+      line-height: 3.125rem; }
+    #main #main_middle #main_middle_title p {
+      font-size: 0.72917rem;
+      line-height: 1.25rem; }
+  #main #main_middle #main_middle_top {
+    margin-top: 4.6875rem;
+    height: 31.82292rem;
+    position: relative; }
+    #main #main_middle #main_middle_top li {
+      opacity: 0;
+      filter: alpha(opacity=0);
+      width: 62.5rem;
+      position: absolute;
+      top: 0;
+      left: 0; }
+      #main #main_middle #main_middle_top li img {
+        width: 100%;
+        height: 100%; }
+    #main #main_middle #main_middle_top .active {
+      opacity: 1;
+      filter: alpha(opacity=1); }
+  #main #main_middle #main_middle_bottom {
+    position: relative;
+    margin-top: 3.125rem;
+    height: 20.83333rem;
+    width: 100%; }
+    #main #main_middle #main_middle_bottom #main_middle_nav {
+      width: 100%;
+      height: 20.83333rem;
+      overflow: hidden;
+      position: relative; }
+      #main #main_middle #main_middle_bottom #main_middle_nav ul {
+        position: absolute;
+        height: 100%; }
+        #main #main_middle #main_middle_bottom #main_middle_nav ul li {
+          position: relative;
+          overflow: hidden;
+          cursor: pointer;
+          width: 14.58333rem;
+          height: 100%;
+          background: #DD1144;
+          float: left;
+          margin-right: 0.52083rem;
+          background-size: cover;
+          -webkit-background-size: cover; }
+          #main #main_middle #main_middle_bottom #main_middle_nav ul li:nth-child(1) {
+            background: url(../img/case/lunbo-1.png) no-repeat; }
+            #main #main_middle #main_middle_bottom #main_middle_nav ul li:nth-child(1) .main_middle_nav_font {
+              background: rgba(156, 200, 19, 0.7); }
+          #main #main_middle #main_middle_bottom #main_middle_nav ul li:nth-child(2) {
+            background: url(../img/case/lunbo-2.png) no-repeat; }
+            #main #main_middle #main_middle_bottom #main_middle_nav ul li:nth-child(2) .main_middle_nav_font {
+              background: rgba(13, 111, 184, 0.7); }
+          #main #main_middle #main_middle_bottom #main_middle_nav ul li:nth-child(3) {
+            background: url(../img/case/lunbo-3.png) no-repeat; }
+            #main #main_middle #main_middle_bottom #main_middle_nav ul li:nth-child(3) .main_middle_nav_font {
+              background: rgba(254, 190, 0, 0.7); }
+          #main #main_middle #main_middle_bottom #main_middle_nav ul li:nth-child(4) {
+            background: url(../img/case/lunbo-4.png) no-repeat; }
+            #main #main_middle #main_middle_bottom #main_middle_nav ul li:nth-child(4) .main_middle_nav_font {
+              background: rgba(234, 84, 4, 0.7); }
+          #main #main_middle #main_middle_bottom #main_middle_nav ul li .main_middle_nav_font {
+            width: 100%;
+            height: 9.375rem;
+            position: absolute;
+            bottom: -4.6875rem;
+            text-align: right;
+            padding-right: 1.04167rem;
+            padding-top: 0.78125rem; }
+            #main #main_middle #main_middle_bottom #main_middle_nav ul li .main_middle_nav_font h3 {
+              font-size: 0.9375rem;
+              color: #fff;
+              line-height: 1.66667rem; }
+            #main #main_middle #main_middle_bottom #main_middle_nav ul li .main_middle_nav_font p {
+              font-size: 0.625rem;
+              color: #fff; }
+            #main #main_middle #main_middle_bottom #main_middle_nav ul li .main_middle_nav_font span {
+              width: 100%;
+              height: 1.14583rem;
+              font-size: 0.72917rem;
+              color: #fff;
+              display: block;
+              line-height: 1.04167rem; }
+            #main #main_middle #main_middle_bottom #main_middle_nav ul li .main_middle_nav_font .main_middle_nav_font_first {
+              margin-top: 0.78125rem; }
+    #main #main_middle #main_middle_bottom .main_middle_left {
+      background: url(../img/case/case_left.png) no-repeat;
+      left: -1.30208rem; }
+    #main #main_middle #main_middle_bottom .main_middle_right {
+      background: url(../img/case/case_right.png) no-repeat;
+      right: -1.30208rem; }
+    #main #main_middle #main_middle_bottom .main_middle_btn {
+      width: 0.72917rem;
+      height: 1.19792rem;
+      background-size: cover;
+      position: absolute;
+      top: 50%;
+      margin-top: -1.19792rem;
+      cursor: pointer; }
+  #main #main_bottom {
+    text-align: center;
+    margin-top: 5.20833rem; }
+    #main #main_bottom #main_bottom_title {
+      width: 100%;
+      text-align: center; }
+      #main #main_bottom #main_bottom_title h2 {
+        font-size: 1.5625rem;
+        font-weight: 600;
+        line-height: 3.125rem; }
+      #main #main_bottom #main_bottom_title p {
+        font-size: 0.72917rem;
+        line-height: 1.25rem; }
+    #main #main_bottom #main_bottom_font {
+      margin-top: 2.60417rem; }
+      #main #main_bottom #main_bottom_font p {
+        font-size: 0.83333rem;
+        color: #8c8c8c;
+        line-height: 1.66667rem; }
+    #main #main_bottom #main_bottom_bottom {
+      margin-top: 5.20833rem; }
+      #main #main_bottom #main_bottom_bottom ul li {
+        float: left;
+        width: 50%;
+        margin-bottom: 2.60417rem;
+        padding: 0 2.60417rem; }
+        #main #main_bottom #main_bottom_bottom ul li .main_bottom_bottom_font {
+          display: inline-block; }
+          #main #main_bottom #main_bottom_bottom ul li .main_bottom_bottom_font h2 {
+            font-size: 1.25rem;
+            font-weight: 900;
+            line-height: 2.34375rem; }
+        #main #main_bottom #main_bottom_bottom ul li:nth-child(1) {
+          text-align: right; }
+          #main #main_bottom #main_bottom_bottom ul li:nth-child(1) .round {
+            background: #9cc813;
+            margin-left: 1.875rem; }
+        #main #main_bottom #main_bottom_bottom ul li:nth-child(2) {
+          text-align: left; }
+          #main #main_bottom #main_bottom_bottom ul li:nth-child(2) .round {
+            background: #0d6fb8;
+            margin-right: 1.875rem; }
+        #main #main_bottom #main_bottom_bottom ul li:nth-child(3) {
+          text-align: right; }
+          #main #main_bottom #main_bottom_bottom ul li:nth-child(3) .round {
+            background: #fabe00;
+            margin-left: 1.875rem; }
+        #main #main_bottom #main_bottom_bottom ul li:nth-child(4) {
+          text-align: left; }
+          #main #main_bottom #main_bottom_bottom ul li:nth-child(4) .round {
+            background: #ea5404;
+            margin-right: 1.875rem; }
+      #main #main_bottom #main_bottom_bottom .round {
+        display: inline-block;
+        width: 3.125rem;
+        height: 3.125rem;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%; }
+
+/*# sourceMappingURL=index.css.map */
